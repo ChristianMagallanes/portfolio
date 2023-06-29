@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <title>Christian Magallanes - Portfolio</title>
+</head>
+
+<body>
+  <!--=================Navbar==================-->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--Infomacion personal-->
+  <section class="InformacionContainer">
+    <h1 class="titulo">Desarrollador <br> <span class="Span1">front-end.</span></h1>
+    <div class="InformacionPerfil">
+      <img src="./assets/perfil2.png" alt="">
+    </div>
+
+    <div class="InformacionPersonal">
+
+    </div>
+
+
+  </section>
+
+  <!----------Servicios container----------->
+  <section class="ServiciosContainer">
+
+    <div>
+      <article class="InformacionContent">
+        <div class="Informacion">
+          <h2 id="DiseñoTitle">SOBRE MI</h2>
+          <p class="infoP">MI NOMBRE ES CHRISTIAN DAMIAN MAGALLANES DUTRA TENGO 23 AÑOS.
+            SOY DE URUGUAY, TIERRA DEL MATE Y FUTBOL, PEGADITO A LOS QUERIDOS HERMANOS DE ARGENTINA CON QUIENES COMPARTIMOS LAS MISMAS COSTUMBRES, ME ENCANTAN LOS VIDEOJUEGOS PERO MAS ME GUSTAN LOS CODIGOS, SOY UNA PERSONA TRANQUILA Y AUTOCRITICA.
+          </p>
+        </div>
+      </article>
+
+
+      <article class="InformacionContent2">
+        <div class="Informacion">
+          <h2 id="IngenieriaTitle" >DISEÑO</h2>
+          <p class="infoP">Probablemente no soy el típico diseñador colocado detrás de una mesa de trabajo de Illustrator ajustando
+            píxeles, pero diseño. Inmerso en hojas de estilo ajustando tamaños de fuente y contemplando diseños es donde
+            me encontrarás. Me comprometo a crear experiencias de usuario fluidas mientras me mantengo a la moda.
+          </p>
+        </div>
+      </article>
+    </div>
+
+  </section>
+
+  <section class="ExperienceContent">
+    <div class="Experience">
+      <h2 class="tituloExp">Mi experiencia</h2>
+      <p><span class="Exp1">Soy un entusiasta del desarrollo web front-end con un enfoque en la creación de interfaces atractivas y funcionales. Aunque no tengo experiencia laboral formal, he adquirido un sólido conjunto de habilidades en HTML, CSS, Sass y Bootstrap a través de proyectos personales y estudios autodidactas. Actualmente, me encuentro enfocado en ampliar mis conocimientos y dominar JavaScript para agregar interactividad a mis creaciones web.</span>
+        <h1 class="TitleH">Conocimientos Técnicos</h1>
+  
+  <h2 class="TitleH">HTML</h2>
+  <p class="ParrafoH">Poseo un amplio dominio de HTML y puedo crear estructuras de página bien organizadas y semánticamente correctas. Estoy familiarizado con las últimas especificaciones y buenas prácticas de accesibilidad.</p>
+  
+  <h2 class="TitleH">CSS</h2>
+  <p class="ParrafoH">Tengo experiencia en el uso de CSS para dar estilo a sitios web, aplicando diseños atractivos y responsivos. Puedo utilizar selectores, pseudo-clases y propiedades avanzadas para lograr el aspecto deseado.</p>
+  
+  <h2 class="TitleH">Sass</h2>
+  <p class="ParrafoH">He trabajado con Sass, un preprocesador CSS, para aprovechar características como variables, anidamiento y mixins. Esto me permite escribir estilos más limpios y eficientes, ahorrando tiempo y facilitando el mantenimiento.</p>
+  
+  <h2 class="TitleH">Bootstrap</h2>
+  <p class="ParrafoH">Estoy familiarizado con el framework Bootstrap y puedo utilizar su sistema de rejilla y componentes para desarrollar interfaces rápidas y receptivas. Comprendo cómo personalizar y adaptar Bootstrap para cumplir con los requisitos específicos de un proyecto.</p>
+  
+  <h2 class="TitleH">JavaScript</h2>
+  <p class="ParrafoH">Aunque actualmente me encuentro en la etapa de estudio de JavaScript, ya tengo conocimientos básicos y entiendo los conceptos fundamentales, como variables, funciones y estructuras de control. Estoy trabajando en la creación de pequeñas aplicaciones y proyectos para fortalecer mis habilidades.</p>
+      </p>
+    </div>
+    <div>
+      <h2 class="tituloExp">certificados</h2>
+      
+      <div class="Certificados">
+        <a href="https://www.coderhouse.com.uy/certificados/649b72a1f13d02001915482e" target="_blank">Desarrollo Web</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="ProyectosContent">
+    <h2 class="titulo">Mis proyectos</h2>
+  
+
+  </section>
+
+  <section class="ContactoContent">
+    <h2 class="titulo">contactame</h2>
+    <form action="enviar.php" method="POST">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+  
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+  
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" required></textarea>
+  
+      <input type="submit" value="Enviar">
+    </form>
+  </section>
+
+  <footer>
+
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
