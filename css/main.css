@@ -32,7 +32,7 @@
   height: 400px;
   background-color: #ffffff;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 420px) {
   .InformacionContainer {
     height: 211px;
     padding-left: 10px;
@@ -44,7 +44,7 @@
   font-family: "Roboto Condensed", sans-serif;
   text-transform: uppercase;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 420px) {
   .InformacionContainer .titulo {
     font-size: 40px;
     text-align: start;
@@ -72,7 +72,7 @@
     bottom: 47%;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 420px) {
   .InformacionContainer .InformacionPerfil {
     bottom: 40%;
   }
@@ -86,7 +86,7 @@
     height: 500px;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 420px) {
   .InformacionContainer .InformacionPerfil img {
     height: 250px;
   }
@@ -105,7 +105,7 @@
   -webkit-transition: 1s;
   transition: 1s;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 420px) {
   .SobremiContainer {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -128,7 +128,7 @@
     margin-left: 30%;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 420px) {
   .SobremiContainer .InformacionContent {
     margin: 0;
   }
@@ -136,7 +136,7 @@
 .SobremiContainer .InformacionContent .Informacion {
   width: 500px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 420px) {
   .SobremiContainer .InformacionContent .Informacion {
     width: 300px;
   }
@@ -152,7 +152,7 @@
     font-size: 60px;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 420px) {
   .SobremiContainer .InformacionContent .Informacion #DiseñoTitle {
     font-size: 48px;
     text-align: center;
@@ -162,7 +162,7 @@
   font-size: 18px;
   color: #1f2f63;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 420px) {
   .SobremiContainer .InformacionContent .Informacion .infoP {
     text-align: center;
   }
@@ -183,7 +183,7 @@
     margin-left: 150%;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 420px) {
   .SobremiContainer .InformacionContent2 {
     margin: 0;
     background-color: rgba(255, 255, 255, 0);
@@ -192,7 +192,7 @@
 .SobremiContainer .InformacionContent2 .Informacion {
   width: 500px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 420px) {
   .SobremiContainer .InformacionContent2 .Informacion {
     text-align: center;
     width: 300px;
