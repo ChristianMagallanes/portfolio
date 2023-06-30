@@ -5,7 +5,12 @@
     background-color: #2f2621;
     padding: 50px;
     transition: 1s;
-    
+    @include mobile{
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
     &:hover {
         scale: 1.1;
         transition: 1s;
@@ -19,6 +24,9 @@
             font-size: 58px;
             color: #fff;
             font-family: 'Roboto Condensed', sans-serif;
+            @include mobile{
+                font-size: 24px;
+            }
         }
 
         .Exp1 {
@@ -43,6 +51,9 @@
         font-size: 58px;
         color: #fff;
         font-family: 'Roboto Condensed', sans-serif;
+        @include mobile{
+            font-size: 34px;
+        }
     }
 
     .Certificados {
@@ -52,6 +63,9 @@
         height: 80px;
         background-color: #fff;
         border-radius: 1rem;
+        @include mobile{
+            height: 30px;
+        }
 
         a {
             text-align: center;
@@ -60,6 +74,9 @@
             font-size: 30px;
             font-family: 'Roboto Condensed', sans-serif;
             text-transform: uppercase;
+            @include mobile{
+                font-size: 14px;
+            }
         }
 
         &:hover {

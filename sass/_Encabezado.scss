@@ -9,7 +9,8 @@
     @include mobile{
         height: 200px;
         padding-left: 10px;
-        background-color: #6b3636;
+        gap: 0;
+        
     }
    
     .titulo{
@@ -17,7 +18,7 @@
         font-family: 'Roboto Condensed', sans-serif;
         text-transform: uppercase;
         @include mobile{
-            font-size: 40px;
+            font-size: 38px;
             text-align: start;
         }
     }
@@ -31,6 +32,9 @@
         height: 100%;
         width: 46%;
         box-shadow: 5px 14px 12px 6px rgba(0,0,0,0.87);
+        @include mobile{
+           
+        }
     }
     .InformacionPerfil{
         position: absolute;

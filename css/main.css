@@ -36,7 +36,7 @@
   .InformacionContainer {
     height: 200px;
     padding-left: 10px;
-    background-color: #6b3636;
+    gap: 0;
   }
 }
 .InformacionContainer .titulo {
@@ -46,7 +46,7 @@
 }
 @media screen and (max-width: 420px) {
   .InformacionContainer .titulo {
-    font-size: 40px;
+    font-size: 38px;
     text-align: start;
   }
 }
@@ -237,6 +237,19 @@
   -webkit-transition: 1s;
   transition: 1s;
 }
+@media screen and (max-width: 420px) {
+  .ExperienceContent {
+    padding: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+}
 .ExperienceContent:hover {
   scale: 1.1;
   -webkit-transition: 1s;
@@ -250,6 +263,11 @@
   font-size: 58px;
   color: #fff;
   font-family: "Roboto Condensed", sans-serif;
+}
+@media screen and (max-width: 420px) {
+  .ExperienceContent .Experience .tituloExp {
+    font-size: 24px;
+  }
 }
 .ExperienceContent .Experience .Exp1 {
   color: rgb(255, 255, 255);
@@ -270,6 +288,11 @@
   color: #fff;
   font-family: "Roboto Condensed", sans-serif;
 }
+@media screen and (max-width: 420px) {
+  .ExperienceContent .tituloExp {
+    font-size: 34px;
+  }
+}
 .ExperienceContent .Certificados {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -284,6 +307,11 @@
   background-color: #fff;
   border-radius: 1rem;
 }
+@media screen and (max-width: 420px) {
+  .ExperienceContent .Certificados {
+    height: 30px;
+  }
+}
 .ExperienceContent .Certificados a {
   text-align: center;
   text-decoration: none;
@@ -291,6 +319,11 @@
   font-size: 30px;
   font-family: "Roboto Condensed", sans-serif;
   text-transform: uppercase;
+}
+@media screen and (max-width: 420px) {
+  .ExperienceContent .Certificados a {
+    font-size: 14px;
+  }
 }
 .ExperienceContent .Certificados:hover {
   background-color: #382f2f;
