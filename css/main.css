@@ -46,7 +46,7 @@
 }
 @media screen and (max-width: 420px) {
   .InformacionContainer .titulo {
-    font-size: 38px;
+    font-size: 24px;
     text-align: start;
   }
 }
@@ -279,6 +279,11 @@
   color: #fff;
   font-family: "Roboto Condensed", sans-serif;
 }
+@media screen and (max-width: 420px) {
+  .ExperienceContent .Experience .TitleH {
+    font-size: 24px;
+  }
+}
 .ExperienceContent .Experience .ParrafoH {
   color: #ffffff;
   font-family: "Roboto Condensed", sans-serif;
@@ -346,6 +351,11 @@
   font-size: 90px;
   font-family: "Roboto Condensed", sans-serif;
   text-transform: uppercase;
+}
+@media screen and (max-width: 420px) {
+  .ProyectosContent .titulo {
+    font-size: 24px;
+  }
 }
 
 /*

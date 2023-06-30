@@ -39,6 +39,9 @@
             font-size: 60px;
             color: #fff;
             font-family: 'Roboto Condensed', sans-serif;
+            @include mobile{
+                font-size: 24px;
+            }
         }
 
         .ParrafoH {
