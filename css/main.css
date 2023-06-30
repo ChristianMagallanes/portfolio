@@ -34,9 +34,9 @@
 }
 @media screen and (max-width: 420px) {
   .InformacionContainer {
-    height: 211px;
+    height: 200px;
     padding-left: 10px;
-    background-color: #ffffff;
+    background-color: #6b3636;
   }
 }
 .InformacionContainer .titulo {
@@ -74,7 +74,7 @@
 }
 @media screen and (max-width: 420px) {
   .InformacionContainer .InformacionPerfil {
-    bottom: 40%;
+    bottom: 13%;
   }
 }
 .InformacionContainer .InformacionPerfil img {
@@ -88,7 +88,7 @@
 }
 @media screen and (max-width: 420px) {
   .InformacionContainer .InformacionPerfil img {
-    height: 250px;
+    height: 200px;
   }
 }
 
@@ -116,6 +116,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    height: 120vh;
   }
 }
 .SobremiContainer .InformacionContent {
@@ -154,7 +155,7 @@
 }
 @media screen and (max-width: 420px) {
   .SobremiContainer .InformacionContent .Informacion #DiseñoTitle {
-    font-size: 48px;
+    font-size: 40px;
     text-align: center;
   }
 }
@@ -165,6 +166,11 @@
 @media screen and (max-width: 420px) {
   .SobremiContainer .InformacionContent .Informacion .infoP {
     text-align: center;
+  }
+}
+@media screen and (max-width: 420px) {
+  .SobremiContainer .InformacionContent .Informacion .infoP {
+    font-size: 15px;
   }
 }
 .SobremiContainer .InformacionContent:hover {

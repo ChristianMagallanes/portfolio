@@ -7,9 +7,9 @@
     height: 400px;
     background-color: #ffffff;
     @include mobile{
-        height: 211px;
+        height: 200px;
         padding-left: 10px;
-        background-color: #ffffff;
+        background-color: #6b3636;
     }
    
     .titulo{
@@ -42,7 +42,7 @@
             bottom: 47%;
         }
         @include mobile {
-            bottom: 40%;
+            bottom: 13%;
         }
        
         img{
@@ -51,7 +51,7 @@
                 height: 500px;
             }
             @include mobile{
-                height: 250px;
+                height: 200px;
             }
         }
     }
