@@ -1,12 +1,20 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fasthand&display=swap");
 * {
   padding: 0;
   margin: 0;
 }
 
 .navbar {
-  background-color: #2f2621;
+  height: 100px;
+}
+.navbar .container-fluid {
+  background-color: #fff;
+}
+.navbar .navbar-brand {
+  font-family: "Fasthand", cursive;
+  font-size: 40px;
 }
 
 .InformacionContainer {
@@ -23,21 +31,27 @@
           align-items: center;
   height: 400px;
   background-color: #ffffff;
-  -webkit-transition: 1s;
-  transition: 1s;
+}
+@media screen and (max-width: 480px) {
+  .InformacionContainer {
+    height: 211px;
+    padding-left: 10px;
+    background-color: #ffffff;
+  }
 }
 .InformacionContainer .titulo {
   font-size: 90px;
   font-family: "Roboto Condensed", sans-serif;
   text-transform: uppercase;
 }
+@media screen and (max-width: 480px) {
+  .InformacionContainer .titulo {
+    font-size: 40px;
+    text-align: start;
+  }
+}
 .InformacionContainer .Span1 {
   color: gold;
-}
-.InformacionContainer:hover {
-  scale: 1.1;
-  -webkit-transition: 1s;
-  transition: 1s;
 }
 .InformacionContainer .InformacionPersonal {
   background-color: #2f2621;
@@ -51,9 +65,31 @@
   left: 50%;
   height: 754px;
 }
+@media screen and (max-width: 1400px) {
+  .InformacionContainer .InformacionPerfil {
+    height: 445px;
+    left: 60%;
+    bottom: 47%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .InformacionContainer .InformacionPerfil {
+    bottom: 40%;
+  }
+}
 .InformacionContainer .InformacionPerfil img {
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
+}
+@media screen and (max-width: 1400px) {
+  .InformacionContainer .InformacionPerfil img {
+    height: 500px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .InformacionContainer .InformacionPerfil img {
+    height: 250px;
+  }
 }
 
 .SobremiContainer {
@@ -69,13 +105,41 @@
   -webkit-transition: 1s;
   transition: 1s;
 }
+@media screen and (max-width: 480px) {
+  .SobremiContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
 .SobremiContainer .InformacionContent {
   margin-left: 70%;
   -webkit-transition: 1s;
   transition: 1s;
 }
+@media screen and (max-width: 1400px) {
+  .SobremiContainer .InformacionContent {
+    margin-left: 30%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .SobremiContainer .InformacionContent {
+    margin: 0;
+  }
+}
 .SobremiContainer .InformacionContent .Informacion {
   width: 500px;
+}
+@media screen and (max-width: 480px) {
+  .SobremiContainer .InformacionContent .Informacion {
+    width: 300px;
+  }
 }
 .SobremiContainer .InformacionContent .Informacion #DiseñoTitle {
   color: #000000;
@@ -83,9 +147,25 @@
   font-family: "Roboto Condensed", sans-serif;
   border-bottom: solid 10px #2f2621;
 }
+@media screen and (max-width: 1400px) {
+  .SobremiContainer .InformacionContent .Informacion #DiseñoTitle {
+    font-size: 60px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .SobremiContainer .InformacionContent .Informacion #DiseñoTitle {
+    font-size: 48px;
+    text-align: center;
+  }
+}
 .SobremiContainer .InformacionContent .Informacion .infoP {
   font-size: 18px;
   color: #1f2f63;
+}
+@media screen and (max-width: 480px) {
+  .SobremiContainer .InformacionContent .Informacion .infoP {
+    text-align: center;
+  }
 }
 .SobremiContainer .InformacionContent:hover {
   scale: 1.1;
@@ -98,14 +178,36 @@
   -webkit-transition: 1s;
   transition: 1s;
 }
+@media screen and (max-width: 1400px) {
+  .SobremiContainer .InformacionContent2 {
+    margin-left: 150%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .SobremiContainer .InformacionContent2 {
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0);
+  }
+}
 .SobremiContainer .InformacionContent2 .Informacion {
   width: 500px;
+}
+@media screen and (max-width: 480px) {
+  .SobremiContainer .InformacionContent2 .Informacion {
+    text-align: center;
+    width: 300px;
+  }
 }
 .SobremiContainer .InformacionContent2 .Informacion #IngenieriaTitle {
   color: #000000;
   font-size: 100px;
   font-family: "Roboto Condensed", sans-serif;
   border-bottom: solid 10px #2f2621;
+}
+@media screen and (max-width: 1400px) {
+  .SobremiContainer .InformacionContent2 .Informacion #IngenieriaTitle {
+    font-size: 60px;
+  }
 }
 .SobremiContainer .InformacionContent2 .Informacion .infoP {
   font-size: 18px;

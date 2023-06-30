@@ -1,3 +1,10 @@
 .navbar{
-    background-color:#2f2621 ;
+  height: 100px;
+  .container-fluid{
+    background-color: #fff;
   }
+  .navbar-brand{
+    font-family: 'Fasthand', cursive;
+    font-size: 40px;
+  }
+}

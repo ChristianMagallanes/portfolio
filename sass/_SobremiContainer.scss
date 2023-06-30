@@ -5,20 +5,44 @@
     height: 100vh;
     gap: 20px;  
     transition: 1s;
+    @include mobile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .InformacionContent{
         margin-left: 70%;
         transition: 1s;
+        @include desktop{
+            margin-left: 30%;
+        }
+        @include mobile{
+            margin: 0;
+        }
         .Informacion{
             width: 500px;
+            @include mobile{
+                width: 300px;
+            }
             #DiseñoTitle{
                 color: #000000;
                 font-size: 120px;
                 font-family: 'Roboto Condensed', sans-serif;
                 border-bottom: solid 10px #2f2621; 
+                @include desktop{
+                    font-size: 60px;
+                }
+                @include mobile{
+                    font-size: 48px;
+                    text-align: center;
+                }
             }
             .infoP{
                 font-size: 18px;
                 color: #1f2f63;
+                @include mobile{
+                    text-align: center;
+                }
             }
         }
         &:hover{
@@ -30,13 +54,28 @@
         margin-left: 220%;
         background-color: #2f2621;
         transition: 1s;
+        @include desktop{
+            margin-left:150% ;
+        }
+        @include mobile{
+            margin: 0;
+            background-color: rgba(255, 255, 255, 0);
+        }
+      
         .Informacion{
             width: 500px;
+            @include mobile{
+                text-align: center;
+                width: 300px;
+            }
             #IngenieriaTitle{
                 color: #000000;
                 font-size: 100px;
                 font-family: 'Roboto Condensed', sans-serif;
                 border-bottom: solid 10px #2f2621;
+                @include desktop{
+                    font-size: 60px;
+                }
             }
             .infoP{
                 font-size: 18px;
