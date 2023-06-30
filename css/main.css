@@ -46,7 +46,7 @@
 }
 @media screen and (max-width: 420px) {
   .InformacionContainer .titulo {
-    font-size: 24px;
+    font-size: 30px;
     text-align: start;
   }
 }
@@ -54,11 +54,16 @@
   color: gold;
 }
 .InformacionContainer .InformacionPersonal {
-  background-color: #2f2621;
+  background-color: #4c75fa;
   height: 100%;
   width: 46%;
   -webkit-box-shadow: 5px 14px 12px 6px rgba(0, 0, 0, 0.87);
           box-shadow: 5px 14px 12px 6px rgba(0, 0, 0, 0.87);
+}
+@media screen and (max-width: 420px) {
+  .InformacionContainer .InformacionPersonal {
+    width: 25%;
+  }
 }
 .InformacionContainer .InformacionPerfil {
   position: absolute;
@@ -212,7 +217,7 @@
 }
 @media screen and (max-width: 1400px) {
   .SobremiContainer .InformacionContent2 .Informacion #IngenieriaTitle {
-    font-size: 60px;
+    font-size: 40px;
   }
 }
 .SobremiContainer .InformacionContent2 .Informacion .infoP {
@@ -239,7 +244,7 @@
 }
 @media screen and (max-width: 420px) {
   .ExperienceContent {
-    padding: 0;
+    padding: 20px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -259,6 +264,11 @@
   text-align: center;
   width: 50%;
 }
+@media screen and (max-width: 420px) {
+  .ExperienceContent .Experience {
+    width: 100%;
+  }
+}
 .ExperienceContent .Experience .tituloExp {
   font-size: 58px;
   color: #fff;
@@ -273,6 +283,11 @@
   color: rgb(255, 255, 255);
   font-size: 20px;
   font-family: "Roboto Condensed", sans-serif;
+}
+@media screen and (max-width: 420px) {
+  .ExperienceContent .Experience .Exp1 {
+    font-size: 14px;
+  }
 }
 .ExperienceContent .Experience .TitleH {
   font-size: 60px;
