@@ -1,0 +1,269 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  background-color: #2f2621;
+}
+
+.InformacionContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 200px;
+  gap: 200px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 400px;
+  background-color: #ffffff;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+.InformacionContainer .titulo {
+  font-size: 90px;
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+}
+.InformacionContainer .Span1 {
+  color: gold;
+}
+.InformacionContainer:hover {
+  scale: 1.1;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+.InformacionContainer .InformacionPersonal {
+  background-color: #2f2621;
+  height: 100%;
+  width: 46%;
+  -webkit-box-shadow: 5px 14px 12px 6px rgba(0, 0, 0, 0.87);
+          box-shadow: 5px 14px 12px 6px rgba(0, 0, 0, 0.87);
+}
+.InformacionContainer .InformacionPerfil {
+  position: absolute;
+  left: 50%;
+  height: 754px;
+}
+.InformacionContainer .InformacionPerfil img {
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+.SobremiContainer {
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  gap: 20px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+.SobremiContainer .InformacionContent {
+  margin-left: 70%;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+.SobremiContainer .InformacionContent .Informacion {
+  width: 500px;
+}
+.SobremiContainer .InformacionContent .Informacion #DiseñoTitle {
+  color: #000000;
+  font-size: 120px;
+  font-family: "Roboto Condensed", sans-serif;
+  border-bottom: solid 10px #2f2621;
+}
+.SobremiContainer .InformacionContent .Informacion .infoP {
+  font-size: 18px;
+  color: #1f2f63;
+}
+.SobremiContainer .InformacionContent:hover {
+  scale: 1.1;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+.SobremiContainer .InformacionContent2 {
+  margin-left: 220%;
+  background-color: #2f2621;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+.SobremiContainer .InformacionContent2 .Informacion {
+  width: 500px;
+}
+.SobremiContainer .InformacionContent2 .Informacion #IngenieriaTitle {
+  color: #000000;
+  font-size: 100px;
+  font-family: "Roboto Condensed", sans-serif;
+  border-bottom: solid 10px #2f2621;
+}
+.SobremiContainer .InformacionContent2 .Informacion .infoP {
+  font-size: 18px;
+  color: #1f2f63;
+}
+.SobremiContainer .InformacionContent2:hover {
+  scale: 1.1;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.ExperienceContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 100px;
+  background-color: #2f2621;
+  padding: 50px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+.ExperienceContent:hover {
+  scale: 1.1;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+.ExperienceContent .Experience {
+  text-align: center;
+  width: 50%;
+}
+.ExperienceContent .Experience .tituloExp {
+  font-size: 58px;
+  color: #fff;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.ExperienceContent .Experience .Exp1 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.ExperienceContent .Experience .TitleH {
+  font-size: 60px;
+  color: #fff;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.ExperienceContent .Experience .ParrafoH {
+  color: #ffffff;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.ExperienceContent .tituloExp {
+  font-size: 58px;
+  color: #fff;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.ExperienceContent .Certificados {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 80px;
+  background-color: #fff;
+  border-radius: 1rem;
+}
+.ExperienceContent .Certificados a {
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+  font-size: 30px;
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+}
+.ExperienceContent .Certificados:hover {
+  background-color: #382f2f;
+  scale: 1.2;
+  -webkit-transition: 1s;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.ProyectosContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+}
+.ProyectosContent .titulo {
+  font-size: 90px;
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+}
+
+/*
+.ContactoContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2f2621;
+    .titulo{
+        font-size: 90px;
+        font-family: 'Roboto Condensed', sans-serif;
+        text-transform: uppercase;
+    }
+    h2 {
+        color: #333;
+        font-family: Arial, sans-serif;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 900px;
+        height: 600px;
+
+        margin: 0 auto;
+      }
+
+      label {
+        display: block;
+        margin-top: 10px;
+      }
+
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        width: 100%;
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        box-sizing: border-box;
+      }
+
+      input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+      }
+
+      input[type="submit"]:hover {
+        background-color: #45a049;
+      }
+}
+*/
+footer {
+  height: 200px;
+  background-color: #2f2621;
+}

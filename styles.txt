@@ -12,6 +12,7 @@
 .Span1{
     color: gold;
 }
+
 .InformacionContainer{
     display: flex;
     justify-content: space-between;
@@ -20,8 +21,12 @@
     align-items: center;
     height: 400px;
     background-color: #ffffff;
-    
-    
+    transition: 1s;  
+}
+
+.InformacionContainer:hover{
+    scale: 1.1;
+    transition: 1s;
 }
 .InformacionPersonal{
     
@@ -43,26 +48,34 @@
     
 }
 .InformacionPerfil img{
-    
     transform: scaleX(-1);
-    
-    
 }
 
-.ServiciosContainer{
+.SobremiContainer{
     background-color: #ffffff;
     display: flex;
     align-items: center;
     height: 100vh;
     gap: 20px;  
+    transition: 1s;
 }
 .InformacionContent{
    margin-left: 70%;
+   transition: 1s;
 }
+.InformacionContent:hover{
+    scale: 1.1;
+    transition: 1s;
+}
+
 .InformacionContent2{
     margin-left: 220%;
     background-color: #2f2621;
-    
+    transition: 1s;
+ }
+ .InformacionContent2:hover{
+    scale: 1.1;
+    transition: 1s;
  }
 .Informacion{
     width: 500px;
@@ -90,10 +103,15 @@
     display: flex;
     justify-content: space-around;
     padding-top: 100px;
-    
     background-color: #2f2621;
     padding: 50px;
+    transition: 1s;
 }
+.ExperienceContent:hover{
+    scale: 1.1;
+    transition: 1s;
+}
+
 
 .Experience{
     text-align: center;
@@ -233,4 +251,47 @@ h2 {
   
   footer{
     height: 100vh;
+    background-color: #2f2621;
   }
+  .navbar{
+    background-color:#2f2621 ;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+seccion de ContactoContent
+
+  <section class="ContactoContent">
+    <h2 class="titulo">contactame</h2>
+    <form action="enviar.php" method="POST">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" required></textarea>
+
+      <input type="submit" value="Enviar">
+    </form>
+  </section>
+
+
+
+
+
+
+
+
+
+

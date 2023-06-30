@@ -1,0 +1,72 @@
+.ExperienceContent {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    background-color: #2f2621;
+    padding: 50px;
+    transition: 1s;
+
+    &:hover {
+        scale: 1.1;
+        transition: 1s;
+    }
+
+    .Experience {
+        text-align: center;
+        width: 50%;
+
+        .tituloExp {
+            font-size: 58px;
+            color: #fff;
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+
+        .Exp1 {
+            color: rgb(255, 255, 255);
+            font-size: 20px;
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+
+        .TitleH {
+            font-size: 60px;
+            color: #fff;
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+
+        .ParrafoH {
+            color: #ffffff;
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+    }
+
+    .tituloExp {
+        font-size: 58px;
+        color: #fff;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+
+    .Certificados {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 80px;
+        background-color: #fff;
+        border-radius: 1rem;
+
+        a {
+            text-align: center;
+            text-decoration: none;
+            color: #000000;
+            font-size: 30px;
+            font-family: 'Roboto Condensed', sans-serif;
+            text-transform: uppercase;
+        }
+
+        &:hover {
+            background-color: #382f2f;
+            scale: 1.2;
+            transition: 1s;
+            cursor: pointer;
+        }
+    }
+}

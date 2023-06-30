@@ -1,0 +1,37 @@
+.InformacionContainer{
+    display: flex;
+    justify-content: space-between;
+    padding-left:200px; 
+    gap: 200px;
+    align-items: center;
+    height: 400px;
+    background-color: #ffffff;
+    transition: 1s;  
+    .titulo{
+        font-size: 90px;
+        font-family: 'Roboto Condensed', sans-serif;
+        text-transform: uppercase;
+    }
+    .Span1{
+        color: gold;
+    }
+    &:hover{
+        scale: 1.1;
+        transition: 1s;
+    }
+    .InformacionPersonal{
+    
+        background-color: #2f2621;
+        height: 100%;
+        width: 46%;
+        box-shadow: 5px 14px 12px 6px rgba(0,0,0,0.87);
+    }
+    .InformacionPerfil{
+        position: absolute;
+        left: 50%;
+        height: 754px;
+        img{
+            transform: scaleX(-1);
+        }
+    }
+}

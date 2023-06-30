@@ -1,0 +1,51 @@
+.SobremiContainer{
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;  
+    transition: 1s;
+    .InformacionContent{
+        margin-left: 70%;
+        transition: 1s;
+        .Informacion{
+            width: 500px;
+            #DiseñoTitle{
+                color: #000000;
+                font-size: 120px;
+                font-family: 'Roboto Condensed', sans-serif;
+                border-bottom: solid 10px #2f2621; 
+            }
+            .infoP{
+                font-size: 18px;
+                color: #1f2f63;
+            }
+        }
+        &:hover{
+            scale: 1.1;
+            transition: 1s;
+        }
+     }
+     .InformacionContent2{
+        margin-left: 220%;
+        background-color: #2f2621;
+        transition: 1s;
+        .Informacion{
+            width: 500px;
+            #IngenieriaTitle{
+                color: #000000;
+                font-size: 100px;
+                font-family: 'Roboto Condensed', sans-serif;
+                border-bottom: solid 10px #2f2621;
+            }
+            .infoP{
+                font-size: 18px;
+                color: #1f2f63;
+            }
+        }
+        &:hover{
+            scale: 1.1;
+            transition: 1s;
+        }
+     }
+}
