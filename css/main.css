@@ -259,6 +259,13 @@ body {
             justify-content: center;
   }
 }
+@media screen and (max-width: 425px) {
+  .SobremiContainer {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 .SobremiContainer .InformacionContent {
   margin-left: 70%;
   -webkit-transition: 1s;
@@ -278,6 +285,11 @@ body {
   margin-top: 90px;
   width: 500px;
 }
+@media screen and (max-width: 425px) {
+  .SobremiContainer .InformacionContent .Informacion {
+    width: 400px;
+  }
+}
 .SobremiContainer .InformacionContent .Informacion #DiseñoTitle {
   color: #f7f7f7;
   font-size: 80px;
@@ -287,6 +299,11 @@ body {
 @media screen and (max-width: 1695px) {
   .SobremiContainer .InformacionContent .Informacion #DiseñoTitle {
     font-size: 60px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .SobremiContainer .InformacionContent .Informacion #DiseñoTitle {
+    font-size: 50px;
   }
 }
 .SobremiContainer .InformacionContent .Informacion .infoP {
@@ -308,9 +325,19 @@ body {
     margin-left: 0;
   }
 }
+@media screen and (max-width: 425px) {
+  .SobremiContainer .InformacionContent2 {
+    margin-left: 0;
+  }
+}
 .SobremiContainer .InformacionContent2 .Informacion {
   width: 500px;
   margin-bottom: 90px;
+}
+@media screen and (max-width: 425px) {
+  .SobremiContainer .InformacionContent2 .Informacion {
+    width: 400px;
+  }
 }
 .SobremiContainer .InformacionContent2 .Informacion #IngenieriaTitle {
   color: #faf8f8;
@@ -321,6 +348,11 @@ body {
 @media screen and (max-width: 1695px) {
   .SobremiContainer .InformacionContent2 .Informacion #IngenieriaTitle {
     font-size: 40px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .SobremiContainer .InformacionContent2 .Informacion #IngenieriaTitle {
+    font-size: 50px;
   }
 }
 .SobremiContainer .InformacionContent2 .Informacion .infoP {
@@ -596,13 +628,4 @@ body {
   font-size: 30px;
   margin-bottom: 25px;
   font-family: "Staatliches", cursive;
-}
-
-.Nosotros {
-  width: 500px;
-}
-
-.Nosotros p {
-  color: #fff;
-  font-size: 20px;
 }
