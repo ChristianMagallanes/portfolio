@@ -3,7 +3,11 @@
   border-bottom: double 20px rgb(255, 255, 255);
   width: 30%;
   .container-fluid{
-    background-color: #ffffff04;
+    background-color: #ffffff00;
+    @include mobile{
+      background-color: #fff;
+      color: #000;
+    }
   }
   .navbar-brand{
     font-family: 'Fasthand', cursive;
@@ -20,7 +24,10 @@
   font-size: 24px;
   cursor: pointer;
   transition: 1s;
-  
+  @include mobile{
+   
+    color: #000;
+  }
   &:hover{
     color: #fff;
     font-size: 26px;

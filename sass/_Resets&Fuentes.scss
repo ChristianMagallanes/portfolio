@@ -18,6 +18,10 @@ body{
     @include desktop{
         right: 200px;
     }
+    @include mobile{
+     width: 400px;
+     height: 200px;   
+    }
     @include desktop3{
         bottom: 0;
         right: 0;
@@ -31,5 +35,8 @@ body{
         font-size: 40px;
        margin-bottom: 200px;
        font-family: 'Roboto Condensed', sans-serif;
+       @include mobile{
+        font-size: 28px;
+       }
     }
 }

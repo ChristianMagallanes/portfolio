@@ -30,6 +30,12 @@ body {
     right: 200px;
   }
 }
+@media screen and (max-width: 425px) {
+  .BtnContainer {
+    width: 400px;
+    height: 200px;
+  }
+}
 @media screen and (max-width: 1452px) {
   .BtnContainer {
     bottom: 0;
@@ -46,6 +52,11 @@ body {
   margin-bottom: 200px;
   font-family: "Roboto Condensed", sans-serif;
 }
+@media screen and (max-width: 425px) {
+  .BtnContainer .Btn {
+    font-size: 28px;
+  }
+}
 
 .navbar {
   height: 100px;
@@ -53,7 +64,13 @@ body {
   width: 30%;
 }
 .navbar .container-fluid {
-  background-color: rgba(255, 255, 255, 0.0156862745);
+  background-color: rgba(255, 255, 255, 0);
+}
+@media screen and (max-width: 425px) {
+  .navbar .container-fluid {
+    background-color: #fff;
+    color: #000;
+  }
 }
 .navbar .navbar-brand {
   font-family: "Fasthand", cursive;
@@ -71,6 +88,11 @@ body {
   cursor: pointer;
   -webkit-transition: 1s;
   transition: 1s;
+}
+@media screen and (max-width: 425px) {
+  .nav-link {
+    color: #000;
+  }
 }
 .nav-link:hover {
   color: #fff;
@@ -287,7 +309,8 @@ body {
 }
 @media screen and (max-width: 425px) {
   .SobremiContainer .InformacionContent .Informacion {
-    width: 400px;
+    text-align: center;
+    width: 350px;
   }
 }
 .SobremiContainer .InformacionContent .Informacion #DiseñoTitle {
@@ -336,7 +359,8 @@ body {
 }
 @media screen and (max-width: 425px) {
   .SobremiContainer .InformacionContent2 .Informacion {
-    width: 400px;
+    text-align: center;
+    width: 350px;
   }
 }
 .SobremiContainer .InformacionContent2 .Informacion #IngenieriaTitle {
@@ -353,6 +377,7 @@ body {
 @media screen and (max-width: 425px) {
   .SobremiContainer .InformacionContent2 .Informacion #IngenieriaTitle {
     font-size: 50px;
+    text-align: center;
   }
 }
 .SobremiContainer .InformacionContent2 .Informacion .infoP {
