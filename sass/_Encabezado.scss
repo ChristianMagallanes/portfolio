@@ -10,25 +10,27 @@
         flex-direction: column;
         padding-left: 0;
     }
-    @include mobile{
-        height: 70vh;
-    }
     @include mobile2{
         height: auto;
     }
+    @include mobile{
+        height: 70vh;
+    }
+   
 
     .titulo {
         font-size: 90px;
         font-family: 'Roboto Condensed', sans-serif;
         text-transform: uppercase;
         color: #fff;
-        @include mobile{
-            font-size: 44px;
-        }
         @include mobile2{
             font-size: 44px;
             margin-bottom: auto;
         }
+        @include mobile{
+            font-size: 44px;
+        }
+        
     }
 
     .Span1 {
@@ -63,14 +65,15 @@
             margin: 0;
             width: 500px;
         }
-        @include mobile{
-            height: 80px;
-            width: 300px;
-        }
         @include mobile2{
             height: 80px;
             width: 300px;
         }
+        @include mobile{
+            height: 80px;
+            width: 300px;
+        }
+       
 
         a {
             text-decoration: none;
@@ -84,14 +87,15 @@
                 padding: 10px 10px;
                 font-size: 35px;
             }
-            @include mobile{
-                font-size: 28px;
-                padding: 5px 5px;
-            }
             @include mobile2{
                 font-size: 28px;
                 padding: 5px 5px;
             }
+            @include mobile{
+                font-size: 28px;
+                padding: 5px 5px;
+            }
+           
         }
 
     }
@@ -118,16 +122,17 @@
             left: 20%;
             bottom: 18%;
         }
-        @include mobile{
-            bottom: 30%;
-            left: 23%;
-            height: 300px;
-        }
         @include mobile2{
             bottom: 55%;
             left: 23%;
             height: 300px;
         }
+        @include mobile{
+            bottom: 30%;
+            left: 23%;
+            height: 300px;
+        }
+       
 
         img {
             transform: scaleX(-1);
@@ -136,12 +141,13 @@
             @include desktop {
                 height: 500px;
             }
-            @include mobile{
-                height: 300px;
-            }
             @include mobile2{
                 height: 300px;
             }
+            @include mobile{
+                height: 300px;
+            }
+           
         }
     }
 }

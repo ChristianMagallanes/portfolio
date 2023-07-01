@@ -7,12 +7,13 @@
         flex-wrap: wrap;
         justify-content: center;
     }
-    @include mobile{
-        justify-content: center;
-    }
     @include mobile2{
         justify-content: center;
     }
+    @include mobile{
+        justify-content: center;
+    }
+  
    
     .InformacionContent{
         margin-left: 70%;
@@ -23,12 +24,13 @@
         @include desktop3{
             margin-left: 0;
         }
-        @include mobile{
-            margin-left: 0;
-        }
         @include mobile2{
             margin-left: 0;
         }
+        @include mobile{
+            margin-left: 0;
+        }
+        
         .Informacion{
             margin-top: 90px;
             width: 460px;
@@ -44,13 +46,14 @@
                 @include desktop{
                     font-size: 60px;
                 }
-                @include mobile{
-                    font-size: 50px;
-                }
                 @include mobile2{
                     text-align: center;
                     font-size: 50px;
                 }
+                @include mobile{
+                    font-size: 50px;
+                }
+               
                
             }
             .infoP{
@@ -71,27 +74,29 @@
         @include desktop3{
             margin-left: 0;
         }
-        @include mobile{
-            margin-left: 0;
-        }
         @include mobile2{
             display: flex;
             justify-content: center;
             align-items: center;
             margin-left: 0;
         }
+        @include mobile{
+            margin-left: 0;
+        }
+       
       
         .Informacion{
             width: 500px;
             margin-bottom: 90px;
+            @include mobile2{
+                text-align: center;
+                width: 460px;
+               }
             @include mobile{
                 text-align: center;
                 width: 350px;
                }
-               @include mobile2{
-                text-align: center;
-                width: 460px;
-               }
+               
             #IngenieriaTitle{
                 color: #faf8f8;
                 font-size: 80px;
@@ -100,14 +105,15 @@
                 @include desktop{
                     font-size: 40px;
                 }
-                @include mobile{
-                    font-size: 50px;
-                    text-align: center;
-                }
                 @include mobile2{
                     font-size: 50px;
                     text-align: center;
                 }
+                @include mobile{
+                    font-size: 50px;
+                    text-align: center;
+                }
+                
             }
             .infoP{
                 font-size: 18px;

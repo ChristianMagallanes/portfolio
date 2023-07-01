@@ -29,14 +29,13 @@
 }
 
 
-
-@mixin mobile {
-    @media screen and (max-width:425px) {
+@mixin mobile2 {
+    @media screen and (max-width:482px) {
         @content;
     }
 }
-@mixin mobile2 {
-    @media screen and (max-width:482px) {
+@mixin mobile {
+    @media screen and (max-width:425px) {
         @content;
     }
 }
