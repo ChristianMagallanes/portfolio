@@ -34,6 +34,8 @@ body {
   .BtnContainer {
     width: 400px;
     height: 200px;
+    right: 0;
+    bottom: 0;
   }
 }
 @media screen and (max-width: 1452px) {
@@ -187,8 +189,8 @@ body {
 }
 @media screen and (max-width: 425px) {
   .InformacionContainer .InformacionPersonal {
-    height: 100px;
-    width: 400px;
+    height: 80px;
+    width: 300px;
   }
 }
 .InformacionContainer .InformacionPersonal a {
@@ -207,7 +209,8 @@ body {
 }
 @media screen and (max-width: 425px) {
   .InformacionContainer .InformacionPersonal a {
-    font-size: 24px;
+    font-size: 28px;
+    padding: 5px 5px;
   }
 }
 .InformacionContainer .InformacionPerfil {

@@ -20,7 +20,9 @@ body{
     }
     @include mobile{
      width: 400px;
-     height: 200px;   
+     height: 200px; 
+     right: 0;
+     bottom: 0;  
     }
     @include desktop3{
         bottom: 0;

@@ -57,8 +57,8 @@
             width: 500px;
         }
         @include mobile{
-            height: 100px;
-            width: 400px;
+            height: 80px;
+            width: 300px;
         }
 
         a {
@@ -74,7 +74,8 @@
                 font-size: 35px;
             }
             @include mobile{
-                font-size: 24px;
+                font-size: 28px;
+                padding: 5px 5px;
             }
         }
 
