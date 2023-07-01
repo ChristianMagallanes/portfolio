@@ -103,8 +103,9 @@
             bottom: 18%;
         }
         @include mobile{
-            bottom: 10%;
+            bottom: 30%;
             left: 23%;
+            height: 300px;
         }
 
         img {

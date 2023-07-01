@@ -218,8 +218,9 @@ body {
 }
 @media screen and (max-width: 425px) {
   .InformacionContainer .InformacionPerfil {
-    bottom: 10%;
+    bottom: 30%;
     left: 23%;
+    height: 300px;
   }
 }
 .InformacionContainer .InformacionPerfil img {
