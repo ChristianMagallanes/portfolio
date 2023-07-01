@@ -1,13 +1,35 @@
+.titulo{
+    text-align: center;
+    font-size: 90px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    @include mobile{
+        font-size: 24px;
+    }
+}
 .ProyectosContent{
     display: flex;
     justify-content: center;
-    height: 100vh;
-    .titulo{
-        font-size: 90px;
-        font-family: 'Roboto Condensed', sans-serif;
-        text-transform: uppercase;
-        @include mobile{
-            font-size: 24px;
+    
+   .card-group{
+    
+    
+    margin: 60px;
+    gap: 100px;
+    
+    .card{
+        height: 400px;
+       border-radius: 25px;
+        transition: 1s;
+        overflow: hidden;
+        cursor: pointer;
+        
+        &:hover{
+            scale: 1.1;
+            transition: 1s;
         }
     }
+   }
+    
 }

@@ -12,19 +12,18 @@
 </head>
 
 <body>
+  
   <!--=================Navbar==================-->
   <nav class="navbar  navbar-expand-lg  ">
     <div class="container-fluid fixed-top">
-      <a class="navbar-brand" href="#">Christian Magallanes</a>
+      <a class="navbar-brand" href="#"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
+         
           <li class="nav-item">
             <a class="nav-link" href="#Sobremi">Sobre mi</a>
           </li>
@@ -32,7 +31,7 @@
             <a class="nav-link" href="#Miexperiencia">Mi experiencia</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled">Proyectos</a>
+            <a class="nav-link " href="#Misproyectos">Proyectos</a>
           </li>
         </ul>
       </div>
@@ -42,17 +41,20 @@
   <!--Infomacion personal-->
   <section class="InformacionContainer">
     <h1 class="titulo">Desarrollador <br> <span class="Span1">front-end.</span></h1>
-    <div class="InformacionPerfil">
-      <img src="./assets/perfil2.png" alt="">
-    </div>
+   
 
     <div class="InformacionPersonal">
+      <div class="InformacionPerfil">
+        <img src="./assets/perfil2.png" alt="">
+        
+      </div>
+      <a href="#Sobremi">Te contare sobre mi!</a>
 
     </div>
 
 
   </section>
-
+  
   <!----------Servicios container----------->
   <section class="SobremiContainer"  id="Sobremi">
 
@@ -66,11 +68,14 @@
             PERSONA TRANQUILA Y AUTOCRITICA.
           </p>
         </div>
+        
       </article>
 
-
+     
       <article class="InformacionContent2">
+        
         <div class="Informacion">
+          
           <h2 id="IngenieriaTitle">DISEÑO</h2>
           <p class="infoP">Probablemente no soy el típico diseñador colocado detrás de una mesa de trabajo de
             Illustrator ajustando
@@ -78,11 +83,14 @@
             me encontrarás. Me comprometo a crear experiencias de usuario fluidas mientras me mantengo a la moda.
           </p>
         </div>
+        
       </article>
     </div>
 
   </section>
-
+  <div class="BtnContainer">
+    <a class="Btn" href="#Miexperiencia">Cual es mi experiencia?</a>
+  </div>
   <section class="ExperienceContent" id="Miexperiencia">
     <div class="Experience">
       <h2 class="tituloExp">Mi experiencia</h2>
@@ -127,19 +135,67 @@
       </div>
     </div>
   </section>
-
-  <section class="ProyectosContent">
-    <h2 class="titulo">Mis proyectos</h2>
-
+  <h2 class="titulo">Mis proyectos</h2>
+  <section id="Misproyectos" class="ProyectosContent">
+    
+    <div class="card-group">
+      <div class="card">
+        <a href="https://christianmagallanes.github.io/CanelonesG-aming/" target="_blank"><img src="./assets/can2.png" class="card-img-top"   alt="" ></a>
+        <div class="card-body">
+          <h5 class="card-title">Canelones Gaming</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          
+        </div>
+      </div>
+      <div class="card">
+        <a href="https://canelonesgaming.netlify.app/" target="_blank"><img src="./assets/canegaming.png" class="card-img-top"   alt="" ></a>
+        <div class="card-body">
+          <h5 class="card-title">Canelones Gaming V2</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+         
+        </div>
+      </div>
+      <div class="card">
+        <a href="https://christianmagallanes.github.io/Dadrev/" target="_blank"><img src="./assets/dadrev.png" class="card-img-top"   alt="" ></a>
+        <div class="card-body">
+          <h5 class="card-title">DADREV</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          
+        </div>
+      </div>
+    </div>
 
   </section>
 
 
 
-  <footer>
+  <footer class="footer">
+    <div>
+      <h3>Produccion</h3>
+      <li><a class="ItemFooter" href="#">Voz + Beat de regalo</a></li>
+      <li><a class="ItemFooter" href="#">Masterisacion</a></li>
+      <li><a class="ItemFooter" href="#">Tiempo libre</a></li>
 
+    </div>
+    <div>
+      <h3>Beats</h3>
+      <li><a class="ItemFooter" href="#">Boom Bap</a></li>
+      <li><a class="ItemFooter" href="#">Trap</a></li>
+      <li><a class="ItemFooter" href="#">Pop</a></li>
+
+    </div>
+    <div>
+      <h3>Contacto</h3>
+      <li><a class="ItemFooter" href="#">instangram</a></li>
+      <li><a class="ItemFooter" href="#">Facebook</a></li>
+      <li><a  class="ItemFooter"href="#">Dadrev@gmail.com</a></li>
+    </div>
+    <div class="Nosotros">
+      <h3>sobre nosotros</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At fuga eius aliquid perferendis atque veniam consectetur quaerat corrupti quis, non temporibus iure exercitationem nemo dolore dicta? Deserunt neque ex, assumenda beatae maiores, cupiditate odio voluptatibus natus molestiae, magnam et reprehenderit?</p>
+    </div>
   </footer>
-
+ 
  
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>

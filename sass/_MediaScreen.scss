@@ -1,15 +1,25 @@
 @mixin desktop {
-    @media screen and (max-width: 1400px) {
+    @media screen and (max-width: 1695px) {
         @content;
     }
 }
 
 @mixin desktop2 {
-    @media screen and (min-width: 1270px) {
+    @media screen and (max-width: 1600px) {
         @content;
     }
 }
 
+@mixin desktop3 {
+    @media screen and (max-width: 1452px) {
+        @content;
+    }
+}
+@mixin desktop4 {
+    @media screen and (max-width: 1270px) {
+        @content;
+    }
+}
 
 
 @mixin tablet2 {
@@ -21,7 +31,7 @@
 
 
 @mixin mobile {
-    @media screen and (max-width:420px) {
+    @media screen and (max-width:425px) {
         @content;
     }
 }

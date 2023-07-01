@@ -2,9 +2,10 @@
     display: flex;
     justify-content: space-around;
     padding-top: 100px;
-    background-color: #2f2621;
     padding: 50px;
-    transition: 1s;
+    @include desktop4{
+        flex-wrap: wrap;
+    }
     @include mobile{
         padding: 20px;
         flex-direction: column;
@@ -12,21 +13,20 @@
         text-align: center;
 
     }
-    &:hover {
-        scale: 1.1;
-        transition: 1s;
-    }
-
     .Experience {
         text-align: center;
         width: 50%;
+        background-color: #0000005d;
+        @include desktop4{
+            width: 100%;
+        }
         @include mobile{
             width: 100%;
         }
 
         .tituloExp {
-            font-size: 58px;
-            color: #fff;
+            font-size: 80px;
+            color: #ffffff;
             font-family: 'Roboto Condensed', sans-serif;
             @include mobile{
                 font-size: 24px;
@@ -37,6 +37,7 @@
             color: rgb(255, 255, 255);
             font-size: 20px;
             font-family: 'Roboto Condensed', sans-serif;
+           
             @include mobile{
                 font-size: 14px;
             }
@@ -44,7 +45,8 @@
 
         .TitleH {
             font-size: 60px;
-            color: #fff;
+            color: #fdfdfd;
+            border-top: solid 10px #2939c9;
             font-family: 'Roboto Condensed', sans-serif;
             @include mobile{
                 font-size: 24px;
@@ -58,8 +60,9 @@
     }
 
     .tituloExp {
-        font-size: 58px;
-        color: #fff;
+        font-size: 80px;
+        text-transform: uppercase;
+        color: #ffffff;
         font-family: 'Roboto Condensed', sans-serif;
         @include mobile{
             font-size: 34px;

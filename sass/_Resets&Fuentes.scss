@@ -4,3 +4,32 @@
     padding: 0;
     margin: 0;
 }
+body{
+    background-image: url(../assets/asss.jpg);
+    background-size: 150px;
+}
+.BtnContainer{
+    position: relative;
+    bottom: 300px;
+    right: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @include desktop{
+        right: 200px;
+    }
+    @include desktop3{
+        bottom: 0;
+        right: 0;
+    }
+    .Btn{
+        text-decoration: none;
+        color: #000;
+        background-color: rgb(248, 248, 248);
+        padding: 15px 20px;
+        border-radius: 10px;
+        font-size: 40px;
+       margin-bottom: 200px;
+       font-family: 'Roboto Condensed', sans-serif;
+    }
+}

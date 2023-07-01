@@ -1,62 +1,97 @@
-.InformacionContainer{
+.InformacionContainer {
     display: flex;
     justify-content: space-between;
-    padding-left:200px; 
+    padding-left: 200px;
     gap: 200px;
     align-items: center;
-    height: 400px;
-    background-color: #ffffff;
-    @include mobile{
-        height: 200px;
-        padding-left: 10px;
-        gap: 0;
-        
+    height: 100vh;
+
+    @include desktop2 {
+        flex-direction: column;
+        padding-left: 0;
     }
-   
-    .titulo{
+
+
+    .titulo {
         font-size: 90px;
         font-family: 'Roboto Condensed', sans-serif;
         text-transform: uppercase;
-        @include mobile{
-            font-size: 30px;
-            text-align: start;
-        }
+        color: #fff;
+
     }
-    .Span1{
-        color: gold;
+
+    .Span1 {
+        color: rgb(0, 162, 255);
+        border-bottom: solid 10px #fff;
     }
-    
-    .InformacionPersonal{
-    
-        background-color: #4c75fa;
-        height: 100%;
+
+    .InformacionPersonal {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffffff;
+        border-radius: 90px 0px 90px 90px;
+        height: 41%;
         width: 46%;
-        box-shadow: 5px 14px 12px 6px rgba(0,0,0,0.87);
-        @include mobile{
-           width: 25%;
+        margin-right: 50px;
+        box-shadow: 5px 14px 12px 6px rgba(0, 0, 0, 0.87);
+
+        @include desktop {
+            width: 100%;
         }
+
+        @include desktop2 {
+            width: 700px;
+            height: 300px;
+        }
+        @include desktop4{
+            height: 250px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #000;
+            background-color: cadetblue;
+            padding: 15px 20px;
+            border-radius: 10px;
+            font-size: 40px;
+
+            @include desktop {
+                padding: 10px 10px;
+                font-size: 35px;
+            }
+        }
+
     }
-    .InformacionPerfil{
+
+    .InformacionPerfil {
         position: absolute;
-        left: 50%;
+        left: 45%;
         height: 754px;
-        @include desktop{
+
+
+        @include desktop {
             height: 445px;
-            left: 60%;
-            bottom: 47%;
+            left: 48%;
+            bottom: 30%;
         }
-        @include mobile {
-            bottom: 13%;
+
+        @include desktop2 {
+            left: 37%;
         }
-       
-        img{
+        @include desktop4{
+            left: 32%;
+        }
+
+
+        img {
             transform: scaleX(-1);
-            @include desktop{
+            border-radius: 100%;
+
+            @include desktop {
                 height: 500px;
             }
-            @include mobile{
-                height: 200px;
-            }
+
         }
     }
 }
