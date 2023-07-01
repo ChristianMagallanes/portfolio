@@ -103,8 +103,8 @@
             bottom: 18%;
         }
         @include mobile{
-            bottom: 31%;
-            left: 15%;
+            bottom: 10%;
+            left: 23%;
         }
 
         img {
@@ -115,7 +115,7 @@
                 height: 500px;
             }
             @include mobile{
-                height: 400px;
+                height: 300px;
             }
         }
     }
