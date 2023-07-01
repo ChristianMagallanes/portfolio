@@ -13,6 +13,9 @@
     @include mobile{
         height: 70vh;
     }
+    @include mobile2{
+        height: auto;
+    }
 
     .titulo {
         font-size: 90px;
@@ -21,6 +24,10 @@
         color: #fff;
         @include mobile{
             font-size: 44px;
+        }
+        @include mobile2{
+            font-size: 44px;
+            margin-bottom: auto;
         }
     }
 
@@ -60,6 +67,10 @@
             height: 80px;
             width: 300px;
         }
+        @include mobile2{
+            height: 80px;
+            width: 300px;
+        }
 
         a {
             text-decoration: none;
@@ -74,6 +85,10 @@
                 font-size: 35px;
             }
             @include mobile{
+                font-size: 28px;
+                padding: 5px 5px;
+            }
+            @include mobile2{
                 font-size: 28px;
                 padding: 5px 5px;
             }
@@ -108,6 +123,11 @@
             left: 23%;
             height: 300px;
         }
+        @include mobile2{
+            bottom: 55%;
+            left: 23%;
+            height: 300px;
+        }
 
         img {
             transform: scaleX(-1);
@@ -117,6 +137,9 @@
                 height: 500px;
             }
             @include mobile{
+                height: 300px;
+            }
+            @include mobile2{
                 height: 300px;
             }
         }

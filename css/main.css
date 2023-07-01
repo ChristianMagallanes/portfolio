@@ -131,6 +131,11 @@ body {
     height: 70vh;
   }
 }
+@media screen and (max-width: 482px) {
+  .InformacionContainer {
+    height: auto;
+  }
+}
 .InformacionContainer .titulo {
   font-size: 90px;
   font-family: "Roboto Condensed", sans-serif;
@@ -140,6 +145,12 @@ body {
 @media screen and (max-width: 425px) {
   .InformacionContainer .titulo {
     font-size: 44px;
+  }
+}
+@media screen and (max-width: 482px) {
+  .InformacionContainer .titulo {
+    font-size: 44px;
+    margin-bottom: auto;
   }
 }
 .InformacionContainer .Span1 {
@@ -193,6 +204,12 @@ body {
     width: 300px;
   }
 }
+@media screen and (max-width: 482px) {
+  .InformacionContainer .InformacionPersonal {
+    height: 80px;
+    width: 300px;
+  }
+}
 .InformacionContainer .InformacionPersonal a {
   text-decoration: none;
   color: #000;
@@ -208,6 +225,12 @@ body {
   }
 }
 @media screen and (max-width: 425px) {
+  .InformacionContainer .InformacionPersonal a {
+    font-size: 28px;
+    padding: 5px 5px;
+  }
+}
+@media screen and (max-width: 482px) {
   .InformacionContainer .InformacionPersonal a {
     font-size: 28px;
     padding: 5px 5px;
@@ -248,6 +271,13 @@ body {
     height: 300px;
   }
 }
+@media screen and (max-width: 482px) {
+  .InformacionContainer .InformacionPerfil {
+    bottom: 55%;
+    left: 23%;
+    height: 300px;
+  }
+}
 .InformacionContainer .InformacionPerfil img {
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
@@ -259,6 +289,11 @@ body {
   }
 }
 @media screen and (max-width: 425px) {
+  .InformacionContainer .InformacionPerfil img {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 482px) {
   .InformacionContainer .InformacionPerfil img {
     height: 300px;
   }
@@ -291,6 +326,13 @@ body {
             justify-content: center;
   }
 }
+@media screen and (max-width: 482px) {
+  .SobremiContainer {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 .SobremiContainer .InformacionContent {
   margin-left: 70%;
   -webkit-transition: 1s;
@@ -306,14 +348,24 @@ body {
     margin-left: 0;
   }
 }
+@media screen and (max-width: 425px) {
+  .SobremiContainer .InformacionContent {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 482px) {
+  .SobremiContainer .InformacionContent {
+    margin-left: 0;
+  }
+}
 .SobremiContainer .InformacionContent .Informacion {
   margin-top: 90px;
-  width: 500px;
+  width: 460px;
 }
 @media screen and (max-width: 425px) {
   .SobremiContainer .InformacionContent .Informacion {
     text-align: center;
-    width: 350px;
+    width: 450px;
   }
 }
 .SobremiContainer .InformacionContent .Informacion #DiseñoTitle {
@@ -329,6 +381,12 @@ body {
 }
 @media screen and (max-width: 425px) {
   .SobremiContainer .InformacionContent .Informacion #DiseñoTitle {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 482px) {
+  .SobremiContainer .InformacionContent .Informacion #DiseñoTitle {
+    text-align: center;
     font-size: 50px;
   }
 }
@@ -356,6 +414,20 @@ body {
     margin-left: 0;
   }
 }
+@media screen and (max-width: 482px) {
+  .SobremiContainer .InformacionContent2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 0;
+  }
+}
 .SobremiContainer .InformacionContent2 .Informacion {
   width: 500px;
   margin-bottom: 90px;
@@ -364,6 +436,12 @@ body {
   .SobremiContainer .InformacionContent2 .Informacion {
     text-align: center;
     width: 350px;
+  }
+}
+@media screen and (max-width: 482px) {
+  .SobremiContainer .InformacionContent2 .Informacion {
+    text-align: center;
+    width: 460px;
   }
 }
 .SobremiContainer .InformacionContent2 .Informacion #IngenieriaTitle {
@@ -378,6 +456,12 @@ body {
   }
 }
 @media screen and (max-width: 425px) {
+  .SobremiContainer .InformacionContent2 .Informacion #IngenieriaTitle {
+    font-size: 50px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 482px) {
   .SobremiContainer .InformacionContent2 .Informacion #IngenieriaTitle {
     font-size: 50px;
     text-align: center;
