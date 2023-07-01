@@ -642,6 +642,7 @@ body {
 
 .footer li {
   margin-bottom: 25px;
+  text-align: center;
 }
 
 .ItemFooter:hover {
@@ -656,4 +657,9 @@ body {
   font-size: 30px;
   margin-bottom: 25px;
   font-family: "Staatliches", cursive;
+}
+@media screen and (max-width: 425px) {
+  .ItemFooter {
+    font-size: 20px;
+  }
 }
