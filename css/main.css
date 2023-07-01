@@ -102,11 +102,21 @@ body {
     padding-left: 0;
   }
 }
+@media screen and (max-width: 425px) {
+  .InformacionContainer {
+    height: 70vh;
+  }
+}
 .InformacionContainer .titulo {
   font-size: 90px;
   font-family: "Roboto Condensed", sans-serif;
   text-transform: uppercase;
   color: #fff;
+}
+@media screen and (max-width: 425px) {
+  .InformacionContainer .titulo {
+    font-size: 44px;
+  }
 }
 .InformacionContainer .Span1 {
   color: rgb(0, 162, 255);
@@ -146,6 +156,19 @@ body {
     height: 250px;
   }
 }
+@media screen and (max-width: 768px) {
+  .InformacionContainer .InformacionPersonal {
+    height: 200px;
+    margin: 0;
+    width: 500px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .InformacionContainer .InformacionPersonal {
+    height: 100px;
+    width: 400px;
+  }
+}
 .InformacionContainer .InformacionPersonal a {
   text-decoration: none;
   color: #000;
@@ -158,6 +181,11 @@ body {
   .InformacionContainer .InformacionPersonal a {
     padding: 10px 10px;
     font-size: 35px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .InformacionContainer .InformacionPersonal a {
+    font-size: 24px;
   }
 }
 .InformacionContainer .InformacionPerfil {
@@ -182,6 +210,18 @@ body {
     left: 32%;
   }
 }
+@media screen and (max-width: 768px) {
+  .InformacionContainer .InformacionPerfil {
+    left: 20%;
+    bottom: 18%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .InformacionContainer .InformacionPerfil {
+    bottom: 31%;
+    left: 15%;
+  }
+}
 .InformacionContainer .InformacionPerfil img {
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
@@ -190,6 +230,11 @@ body {
 @media screen and (max-width: 1695px) {
   .InformacionContainer .InformacionPerfil img {
     height: 500px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .InformacionContainer .InformacionPerfil img {
+    height: 400px;
   }
 }
 
