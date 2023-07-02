@@ -4,6 +4,9 @@
     font-family: 'Roboto Condensed', sans-serif;
     text-transform: uppercase;
     color: #fff;
+    @include tablet2{
+        font-size: 70px;
+    }
     @include mobile{
         font-size: 24px;
     }

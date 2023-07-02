@@ -145,6 +145,11 @@ body {
   text-transform: uppercase;
   color: #fff;
 }
+@media screen and (max-width: 641px) {
+  .InformacionContainer .titulo {
+    font-size: 70px;
+  }
+}
 @media screen and (max-width: 482px) {
   .InformacionContainer .titulo {
     font-size: 44px;
@@ -548,6 +553,11 @@ body {
   color: #ffffff;
   font-family: "Roboto Condensed", sans-serif;
 }
+@media screen and (max-width: 641px) {
+  .ExperienceContent .Experience .tituloExp {
+    font-size: 65px;
+  }
+}
 @media screen and (max-width: 425px) {
   .ExperienceContent .Experience .tituloExp {
     font-size: 24px;
@@ -583,6 +593,11 @@ body {
   text-transform: uppercase;
   color: #ffffff;
   font-family: "Roboto Condensed", sans-serif;
+}
+@media screen and (max-width: 641px) {
+  .ExperienceContent .tituloExp {
+    font-size: 65px;
+  }
 }
 @media screen and (max-width: 425px) {
   .ExperienceContent .tituloExp {
@@ -635,6 +650,11 @@ body {
   font-family: "Roboto Condensed", sans-serif;
   text-transform: uppercase;
   color: #fff;
+}
+@media screen and (max-width: 641px) {
+  .titulo {
+    font-size: 70px;
+  }
 }
 @media screen and (max-width: 425px) {
   .titulo {

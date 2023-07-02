@@ -23,6 +23,9 @@
         font-family: 'Roboto Condensed', sans-serif;
         text-transform: uppercase;
         color: #fff;
+        @include tablet2{
+            font-size: 70px;
+        }
         @include mobile2{
             font-size: 44px;
             margin-bottom: auto;

@@ -29,6 +29,9 @@
             font-size: 80px;
             color: #ffffff;
             font-family: 'Roboto Condensed', sans-serif;
+            @include tablet2{
+                font-size: 65px;
+            }
             @include mobile{
                 font-size: 24px;
             }
@@ -65,6 +68,9 @@
         text-transform: uppercase;
         color: #ffffff;
         font-family: 'Roboto Condensed', sans-serif;
+        @include tablet2{
+            font-size: 65px;
+        }
         @include mobile{
             font-size: 34px;
         }
@@ -77,6 +83,7 @@
         height: 80px;
         background-color: #fff;
         border-radius: 1rem;
+      
         @include mobile{
             height: 30px;
         }

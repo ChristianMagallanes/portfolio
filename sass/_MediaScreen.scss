@@ -27,7 +27,11 @@
         @content;
     }
 }
-
+@mixin tablet2{
+    @media screen and (max-width: 641px){
+        @content;
+    }
+}
 
 @mixin mobile2 {
     @media screen and (max-width:482px) {
