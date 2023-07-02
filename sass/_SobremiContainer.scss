@@ -29,6 +29,10 @@
         }
         @include mobile{
             margin-left: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 0;
         }
         
         .Informacion{
@@ -36,7 +40,7 @@
             width: 460px;
            @include mobile{
             text-align: center;
-            width: 450px;
+            width: 80%;
            }
             #DiseñoTitle{
                 color: #f7f7f7;
@@ -98,7 +102,7 @@
                }
             @include mobile{
                 text-align: center;
-                width: 460px;
+                width: 80%;
                }
                
             #IngenieriaTitle{

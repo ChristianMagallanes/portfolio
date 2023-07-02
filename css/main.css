@@ -359,6 +359,16 @@ body {
 @media screen and (max-width: 425px) {
   .SobremiContainer .InformacionContent {
     margin-left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 0;
   }
 }
 .SobremiContainer .InformacionContent .Informacion {
@@ -368,7 +378,7 @@ body {
 @media screen and (max-width: 425px) {
   .SobremiContainer .InformacionContent .Informacion {
     text-align: center;
-    width: 450px;
+    width: 80%;
   }
 }
 .SobremiContainer .InformacionContent .Informacion #DiseñoTitle {
@@ -454,7 +464,7 @@ body {
 @media screen and (max-width: 425px) {
   .SobremiContainer .InformacionContent2 .Informacion {
     text-align: center;
-    width: 460px;
+    width: 80%;
   }
 }
 .SobremiContainer .InformacionContent2 .Informacion #IngenieriaTitle {
