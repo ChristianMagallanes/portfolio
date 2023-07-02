@@ -20,7 +20,11 @@
         @content;
     }
 }
-
+@mixin navresponsive {
+    @media screen and (max-width: 991px) {
+        @content;
+    }
+}
 
 @mixin tablet {
     @media screen and (max-width: 768px) {
