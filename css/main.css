@@ -7,8 +7,11 @@
 }
 
 body {
-  background-image: url(../assets/asss.jpg);
-  background-size: 150px;
+  background-image: url(../assets/954228.jpg);
+  background-repeat: inherit;
+  background-attachment: fixed;
+  background-size: auto;
+  height: 100vh;
 }
 
 .BtnContainer {
